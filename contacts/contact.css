@@ -1,0 +1,51 @@
+body{
+    background-color: rgba(236, 238, 238, 0.459);
+    background: url('../assets/maison/bg.jpeg');
+}
+
+.contactForm{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    background: rgba(202, 196, 196, 0.527);
+    width: 400px;
+    height: 550px;
+    border: double rgb(153, 133, 92) 10px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.form h1{
+    text-align: center;
+    color: burlywood;
+}
+input{
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+    width: 95%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+form button{
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 30px;
+    width: 50%;
+    margin-left: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: burlywood;
+}
+
+form textarea{
+    margin-left: 6.5px;
+    margin-top: 40px;
+    border-radius: 10px;
+    width: 95%;
+    text-align: center;    
+}

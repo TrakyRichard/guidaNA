@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+.logo{
+    height: 10px;
+    width: 20px;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+.header{
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(19, 19, 18);
+}
+
+.header ul {
+    justify-content: flex-end;
+    list-style-type: none;
+    display: flex;
+}
+
+.navigationHeader{
+    height: 40px;
+}
+
+ul li{
+    margin-bottom: 200px;
+    margin-right: 50px;
+    width: 60px;
+    color: rgb(240, 224, 224);
+    font-weight: bold;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+.bannierre img{
+    height: 500px;
+}
+
+
+
+/*    The Begining Of the Home Card    */
+.maisonInfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    background-color: rgba(160, 153, 145, 0.13);
+}
+.cardHome{
+    position: relative;
+    background-color: rgba(122, 108, 120, 0.644);
+    margin: auto;
+    border: 5px solid rgb(139, 125, 125);
+    height: 600px;
+    width: 500px;
+}
+
+
+
+.infoSup{
+    display: flex;
+}
+
+.infoSup div{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.infoSup div h2{
+    color: white;
+    text-align: center;
+}
+
+.infoSup div p{
+    color: white;
+    text-align: center;
+}
+
+.more{
+    border-radius: 10px 10px 10px 10px;
+    background-color: teal;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    font-size: 15px;
+    text-transform: lowercase;
+    font-style: oblique;
+    height: 35px;
+    width: 120px;
+    right: 0;
+    bottom: 15px;
+}
+
+.more p{
+    margin: auto;
+}
+
+.description h1{
+    color: white;
+    font-weight: bold;
+}
+
+.description p{
+    color: white;
+    font-style: italic;
+}
+
+.maionStreet h2{
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.maionStreet p{
+    text-align: center;
+    color: cornsilk;
+    font-display: initial;
+    font-size: 1.0em;
+    font-weight: bold;
+}
+
+
+
+.imageCard{
+    margin-top: 30px;
+}
+
+.infoSup{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(48, 44, 48,0.2);
+}
+
+.details{
+    border-right: dashed teal 2px;
+}
+
+/* The Begining of the footer */
+
+.footer{
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    background-color:black;
+}
+
+.footer h2{
+    color: blanchedalmond;
+    font-size: 0.8em;
+}
