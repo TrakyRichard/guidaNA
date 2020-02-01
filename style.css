@@ -147,10 +147,9 @@ ul a:hover{
 /* The Begining of the footer */
 
 .footer{
-    margin-top: 10px;
     text-align: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color:black;
 }
