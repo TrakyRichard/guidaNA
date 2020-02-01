@@ -26,6 +26,7 @@
 }
 
 ul li{
+    display: flex;
     margin-bottom: 200px;
     margin-right: 50px;
     width: 60px;
@@ -158,4 +159,13 @@ ul a:hover{
 .footer h2{
     color: blanchedalmond;
     font-size: 0.8em;
+}
+
+@media all and (max-width:430px){
+    .header ul {
+        justify-content: space-around;
+        list-style-type: none;
+        margin-left: 55px;
+        display: flex;
+    }
 }

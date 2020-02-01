@@ -49,3 +49,14 @@ form textarea{
     width: 95%;
     text-align: center;    
 }
+
+@media all and (max-width:430px){
+    .form{
+        background: rgba(202, 196, 196, 0.527);
+        width: auto;
+        height: 550px;
+        border: double rgb(153, 133, 92) 10px;
+        margin: auto;
+        margin-top: 200px;
+    }
+}
