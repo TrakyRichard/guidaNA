@@ -50,6 +50,14 @@ form textarea{
     text-align: center;    
 }
 
+.pied{
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    background-color:black;
+}
+
 @media all and (max-width:430px){
     .form{
         background: rgba(202, 196, 196, 0.527);
