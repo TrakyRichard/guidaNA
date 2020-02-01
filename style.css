@@ -57,15 +57,15 @@ ul a:hover{
     background-color: rgba(160, 153, 145, 0.13);
 }
 .cardHome{
+    display: flex;
     position: relative;
     background-color: rgba(122, 108, 120, 0.644);
     margin: auto;
+    margin-top: 20px;
     border: 5px solid rgb(139, 125, 125);
     height: 600px;
     width: 500px;
 }
-
-
 
 .infoSup{
     display: flex;
@@ -127,8 +127,6 @@ ul a:hover{
     font-size: 1.0em;
     font-weight: bold;
 }
-
-
 
 .imageCard{
     margin-top: 30px;
